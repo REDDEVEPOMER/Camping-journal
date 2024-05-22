@@ -1,0 +1,146 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+/* PAGES */
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  padding: 0 4rem;
+}
+#page-1 {
+  background-color: aqua;
+}
+#page-2 {
+  background-color: lightgreen;
+}
+#page-3 {
+  background-color: lightcoral;
+}
+#page-4 {
+  background-color: lightpink;
+}
+#page-5 {
+  background-color: lightgoldenrodyellow;
+}
+/* BUTTONS */
+.page button {
+  padding: 10px 15px;
+  background-color: teal;
+  border-radius: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font: bolder;
+}
+.page button:hover {
+  box-shadow: -5px -5px 10px darkgreen, 5px 5px 10px darkolivegreen;
+}
+.page button a:hover {
+  transition: 1s;
+  padding: 5px 5px;
+  background-color: teal;
+  border-radius: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  height: 20px;
+  font: bolder;
+  text-shadow: 3px 3px 5px rgb(0, 65, 0);
+}
+.page a {
+  padding: 8px 20px;
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+/* h1 font size&style */
+h1 {
+  font-size: 99px;
+  font: bolder;
+  text-shadow: 3px 3px 6px lightgreen;
+}
+p {
+  font-style: italic;
+  font: italic;
+  text-shadow: 2px 2px 4px rgb(13, 41, 5);
+  border-radius: 30px;
+  color: rgb(3, 63, 3);
+  background-color: forestgreen;
+  text-rendering: optimizeSpeed;
+  height: 40px;
+  width: 1000px;
+  box-shadow: 10px 10px 20px darkgreen;
+}
+/* backrounds-1 */
+#page-1 {
+  background: url("yosemite-national-park-royalty-free-image-1591893047.jpg")
+    no-repeat center center/cover;
+}
+
+#page-2 {
+  background: url("pexels-photo-803226.jpeg") no-repeat center center/cover;
+  background-color: tan;
+}
+#page-3 {
+  background: url("noch-nebo-zvezdy-les-sneg-zima-palatka.jpg") no-repeat center
+    center/cover;
+}
+#page-4 {
+  background: url("pexels-photo-2526025.jpeg") no-repeat center center/cover;
+}
+#page-5 {
+  background: url("cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MjA2NTE3Ny13aWtpbWVkaWEtaW1hZ2Uta293ZjZjcHkuanBn.webp")
+    no-repeat center center/cover;
+}
+/* backround-2 */
+.Yellow {
+  font-size: 99px;
+  font: bolder;
+  text-shadow: 5px 5px 10px lightgoldenrodyellow;
+}
+.YellowP {
+  background-color: goldenrod;
+  color: lightgoldenrodyellow;
+  box-shadow: 10px 10px 20px goldenrod;
+}
+/* Snow */
+.Snow {
+  font-size: 99px;
+  font: bolder;
+  text-shadow: 5px 5px 10px whitesmoke;
+}
+.SnowP {
+  background-color: azure;
+  color: antiquewhite;
+  box-shadow: 10px 10px 20px azure;
+}
+/* nighttime */
+.Night {
+  font-size: 99px;
+  font: bolder;
+  text-shadow: 5px 5px 10px darkslategray;
+}
+.NightP {
+  background-color: darkblue;
+  color: goldenrod;
+  box-shadow: 10px 10px 20px darkblue;
+}
+/* SunLight */
+.Sun {
+  font-size: 99px;
+  font: bolder;
+  text-shadow: 5px 5px 10px gold;
+}
+.SunP {
+  background-color: goldenrod;
+  color: lightgoldenrodyellow;
+  box-shadow: 10px 10px 20px goldenrod;
+}
